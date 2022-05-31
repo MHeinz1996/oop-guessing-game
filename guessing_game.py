@@ -13,6 +13,7 @@ class GuessingGame():
         return f"Low"
       elif(int(guess) == self.num):
         self.correct = True
+        return f"Correct!"
 
     def solved(self):
       return self.correct == True
